@@ -1,0 +1,63 @@
+.header-wrap {
+  position: relative;
+  min-height: 130px;
+  line-height: 130px;
+  z-index: 99;
+  .logo-wrap {
+    text-align: center;
+    .logo {
+      line-height: 130px;
+      .main-logo {
+        position: relative;
+        z-index: 1;
+        line-height: 130px;
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        img.logo-bg {
+          z-index: 1;
+          display: block;
+          position: relative;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          filter: blur(10px);
+        }
+        .logo-icon {
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          top: 20%;
+          z-index: 1;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .logo-title {
+          width: 678px;
+          height: 105px;
+          // background-size: cover;
+          background-image: url('../../../assets/img/timg.jpg');
+          -webkit-mask-image: url('../../../assets/img/logo.svg');
+          -webkit-mask-size: cover;
+          animation: move 40s infinite;
+          position: absolute;
+          top: 50%;
+          z-index: 1;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}

@@ -1,0 +1,179 @@
+.main-content {
+  padding: 0 60px;
+  width: 66.66666667%;
+  .main-wrap {
+    .main-block-wrap {
+      margin-bottom: 48px;
+      margin-left: -20px;
+      margin-right: -20px;
+      height: auto;
+      .main-content-wrap {
+        padding: 0 20px 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        .info-wrap {
+          display: flex;
+          flex-direction: column;
+          .info-title {
+            font-size: 11px;
+            padding: 0;
+            width: 100%;
+            margin-bottom: 0;
+            z-index: 1;
+            border: 0 solid #eaeaea;
+            min-height: 0;
+            line-height: 1;
+            h3 {
+              font-family: 'Raleway';
+              font-size: 20px;
+              line-height: 1.4;
+              font-weight: 600;
+              text-transform: lowercase;
+              margin: 0 0 20px 0;
+              a {
+                color: #86a5a3;
+              }
+            }
+          }
+          .info-img-wrap {
+            position: relative;
+            flex: 0 0 auto;
+            width: 100%;
+            height: 680px;
+            .img-thumb {
+              margin-bottom: 0;
+              position: relative;
+              width: 100%;
+              height: 100%;
+              a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                img {
+                  height: 100%;
+                  width: auto;
+                  object-fit: cover;
+                }
+              }
+            }
+          }
+          .info-main-wrap {
+            padding: 30px 0 0 0;
+            width: 100%;
+            .editor-date {
+              font-family: 'Raleway';
+              font-size: 13px;
+              line-height: 1.3;
+              font-style: italic;
+              font-weight: 400;
+              text-transform: lowercase;
+              display: flex;
+              .post-category {
+                color: #fff;
+                font-family: open sans,arial,sans-serif;
+                font-size: 10px;
+                font-weight: 600;
+                line-height: 1;
+                font-style: normal;
+                text-transform: uppercase;
+                background-color: #aaddd0;
+                padding: 4px 10px 5px;
+                margin: 0 15px 0 0;
+                vertical-align: top;
+              }
+              .author-date {
+                display: flex;
+                color: #ccc;
+                width: 100%;
+                .post-author-name {
+                  display: block;
+                  position: relative;
+                }
+                .post-date {
+                  display: block;
+                  position: relative;
+                }
+                .post-comments {
+                  font-family: open sans,arial,sans-serif;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-align: right;
+                  flex: 1;
+                  line-height: 1;
+                  a {
+                    font-family: 'Raleway';
+                    font-size: 13px;
+                    line-height: 1.3;
+                    font-style: italic;
+                    font-weight: 400;
+                    text-transform: lowercase;
+                    color: #fff;
+                    background-color: #000;
+                    display: inline-block;
+                    min-width: 17px;
+                    padding: 3px 4px 4px 5px;
+                    position: relative;
+                    &::after {
+                      position: absolute;
+                      bottom: -3px;
+                      left: 0;
+                      content: '';
+                      width: 0;
+                      height: 0;
+                      border-style: solid;
+                      border-width: 3px 3px 0 0;
+                      border-color: #000 transparent transparent transparent;
+                    }
+                  }
+                }
+              }
+            }
+            .excerpt {
+              font-family: 'Crimson-text';
+              font-size: 16px;
+              color: #c9d8d5;
+              margin: 20px 0 0;
+              line-height: 21px;
+            }
+            .read-more {
+              margin: 20px 0 0;
+              font-family: roboto,sans-serif;
+              a {
+                background-color: #aaddd0;
+                color: #fff;
+                display: inline-block;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 1;
+                padding: 10px 15px;
+                transition: background-color .4s;
+              }
+            }
+          }
+        }
+      }
+      .load-more-wrap {
+        margin-top: 20px;
+        text-align: center;
+        a {
+          border-color: rgba(255,255,255,0);
+          color: #86a5a3;
+          display: inline-block;
+          font-family: open sans,arial,sans-serif;
+          font-size: 12px;
+          line-height: 1;
+          padding: 8px 10px;
+          text-align: center;
+          vertical-align: middle;
+          i {
+            font-size: 8px;
+            margin-left: 6px;
+            position: relative;
+            top: 0;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.author-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 35px;
+  .author-title {
+    padding: 0 24px;
+    width: 100%;
+    h3 {
+      text-align: center;
+      font-family: inherit;
+      font-size: 20px;
+      line-height: 1;
+      font-style: italic;
+      text-transform: lowercase;
+      color: #ccc;
+      transition: all .2s ease;
+      margin-bottom: 7px;
+      font-weight: 500;
+    }
+  }
+  .author-header-wrap {
+    width: 220px;
+    margin: 20px auto 30px;
+    .author-header_img {
+      pointer-events: none;
+      cursor: default;
+      background-image: url('../../assets/img/avatar.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 50%;
+      display: block;
+      width: 100%;
+      height: 220px;
+    }
+  }
+  .author-name {
+    padding: 0 24px;
+    width: 100%;
+    h3 {
+      text-align: center;
+      font-family: 'Raleway';
+      font-size: 17px;
+      line-height: 1;
+      font-weight: 600;
+      text-transform: lowercase;
+      color: #86a5a3;
+      margin-bottom: 7px;
+      transition: all .2s ease;
+    }
+  }
+  .author-introduce {
+    text-align: center;
+    margin: 0 auto 25px;
+    vertical-align: top;
+    p {
+      font-family: inherit;
+      font-size: 14px;
+      line-height: 1.4;
+      color: #c9d8d5;
+      margin: 0 auto;
+    }
+  }
+  .author-linebg {
+    margin: 0 auto 20px;
+    width: 100%;
+    span {
+      display: block;
+      background-image: url('../../assets/img/menu-line.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 100%;
+      height: 10px;
+    }
+  }
+  .other-links {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .author-icon {
+      line-height: 35px;
+      a {
+        margin: 5px;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        vertical-align: middle;
+        transition: all .2s;
+        text-align: center;
+        svg {
+          color: #aaddd0;
+          &:hover {
+            color: #86a5a3;
+          }
+        }
+      }
+    }
+  }
+}
